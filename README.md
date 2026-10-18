@@ -1,17 +1,68 @@
-# flutter_application_1
+# NIVO — Media Pembelajaran Interaktif
 
-A new Flutter project.
+NIVO adalah prototype aplikasi mobile berbasis Flutter yang dikembangkan untuk mendukung pembelajaran melalui materi, evaluasi, dan remedial interaktif.
 
-## Getting Started
+## Deskripsi Proyek
 
-This project is a starting point for a Flutter application.
+NIVO berfokus pada materi pengenalan Flutter dan widget, meliputi:
+- Pengenalan Flutter
+- Struktur Project Flutter
+- Widget Dasar
+- Flutter dan Widget
+- Layout dan Navigasi
 
-A few resources to get you started if this is your first Flutter project:
+Prototype ini dikembangkan sebagai proyek Ujian Tengah Semester (UTS) mata kuliah Mobile Programming. Fitur dan mekanisme penyimpanan masih dalam tahap pengembangan.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Teknologi
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Framework:** Flutter
+- **Bahasa pemrograman:** Dart
+- **IDE:** Visual Studio Code
+- **Version control:** Git dan GitHub
+
+## Struktur Folder
+
+- `lib/` — kode utama aplikasi
+- `test/` — berkas pengujian Flutter
+- `android/` — konfigurasi platform Android
+- `ios/` — konfigurasi platform iOS
+- `web/` — konfigurasi platform web
+- `pubspec.yaml` — konfigurasi proyek dan dependensi
+
+## Cara Menjalankan Proyek
+
+Pastikan Flutter SDK sudah terpasang dan dikonfigurasi di komputer.
+
+1. Clone repository:
+
+   ```bash
+   git clone https://github.com/NelenAnggreaini/NIVO.git
+   ```
+
+2. Masuk ke folder proyek:
+
+   ```bash
+   cd NIVO
+   ```
+
+3. Unduh dependensi:
+
+   ```bash
+   flutter pub get
+   ```
+
+4. Jalankan aplikasi pada emulator atau perangkat yang tersedia:
+
+   ```bash
+   flutter run
+   ```
+
+Perintah tersebut merupakan langkah menjalankan proyek Flutter. Keberhasilan build dan eksekusi aplikasi bergantung pada konfigurasi lingkungan pengembangan.
+
+## Status Pengembangan
+
+NIVO masih berupa prototype yang dikembangkan secara bertahap. Beberapa bagian, seperti pengelolaan progres belajar dan penyempurnaan fitur, masih memiliki keterbatasan dan dapat dikembangkan lebih lanjut.
+
+## Repository
+
+GitHub: https://github.com/NelenAnggreaini/NIVO
